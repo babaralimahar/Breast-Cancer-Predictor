@@ -1,4 +1,4 @@
-<h1 align="center">🔬 Breast Cancer Predictor Dashboard</h1>
+<h1 align="center">🔬 Breast Cancer Predictor App </h1>
 
 <div align="center">
   <a href="https://ai-breast-cancer-predictor.streamlit.app/"><strong>🔗 View Live Demo</strong></a>
@@ -11,7 +11,7 @@
 
 <br>
 
-![Breast Cancer Predictor Demo](demo.png)
+![Breast Cancer Predictor Demo](Demo.png)
 
 ## 📌 Overview
 The **Breast Cancer Predictor Dashboard** is a machine learning-powered web application designed to assist medical professionals and cytology labs in diagnosing breast cancer. By inputting cellular measurements obtained from fine needle aspirate (FNA) digitized images, the model predicts whether a breast mass is **Benign** or **Malignant** with high accuracy.
