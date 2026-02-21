@@ -1,19 +1,45 @@
-.css-j5r0tf {
-  padding: 1rem;
-  border-radius: 0.5rem;
-  background-color: #7E99AB;
-}
-
+/* Base styling for diagnosis container */
 .diagnosis {
-  color: #fff;
-  padding: 0.2em 0.5em;
-  border-radius: 0.5em;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
 }
 
+/* Benign badge styling */
 .diagnosis.benign {
-  background-color: #01DB4B
+    background: linear-gradient(135deg, #01DB4B 0%, #00b03b 100%);
+    border: 1px solid #00b03b;
 }
 
+/* Malicious/Malignant badge styling */
 .diagnosis.malicious {
-  background-color: #ff4b4b
+    background: linear-gradient(135deg, #ff4b4b 0%, #cc0000 100%);
+    border: 1px solid #cc0000;
 }
+
+/* Advanced Footer Styling */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    color: #888888;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-top: 1px solid rgba(128, 128, 128, 0.2);
+    z-index: 1000;
+}
+
+/* Hide Streamlit default footer and main menu for a cleaner FYP look */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
