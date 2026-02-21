@@ -156,7 +156,7 @@ def main():
     input_data = add_sidebar()
     
     # Header Section
-    st.title("🔬 Breast Cancer Predictor Dashboard")
+    st.title("🔬 Breast Cancer Predictor ")
     st.markdown("""
         Welcome to the diagnostic assistant dashboard. Please connect this app to your cytology lab to help diagnose breast cancer from your tissue samples. 
         This app uses a Machine Learning model (Logistic Regression) to predict whether a breast mass is **benign** or **malignant** based on measurements received from the lab. 
@@ -176,7 +176,7 @@ def main():
         add_predictions(input_data)
 
     # Footer
-    st.markdown("<div class='footer'>Developed by: Babar Ali</div>", unsafe_allow_html=True)
+    st.markdown("<div class='footer'>Developed by: <b> Babar Ali </b> </div>", unsafe_allow_html=True)
 
 if __name__ == '__main__':
     main()
