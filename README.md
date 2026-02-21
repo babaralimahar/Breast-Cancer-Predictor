@@ -1,7 +1,47 @@
-# Breast cancer diagnosis predictor
+<h1 align="center">🔬 Breast Cancer Predictor Dashboard</h1>
 
-## Overview
+<div align="center">
+  <a href="https://ai-breast-cancer-predictor.streamlit.app/"><strong>🔗 View Live Demo</strong></a>
+  <br><br>
+  <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python Version">
+  <img src="https://img.shields.io/badge/Streamlit-Framework-FF4B4B.svg" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-F7931E.svg" alt="Scikit-Learn">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+</div>
 
-The Breast Cancer Diagnosis app is a machine learning-powered tool designed to assist medical professionals in diagnosing breast cancer. Using a set of measurements, the app predicts whether a breast mass is benign or malignant. It provides a visual representation of the input data using a radar chart and displays the predicted diagnosis and probability of being benign or malignant. The app can be used by manually inputting the measurements or by connecting it to a cytology lab to obtain the data directly from a machine. The connection to the laboratory machine is not a part of the app itself.
+<br>
 
-The app was developed as a machine learning exercice from the public dataset [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data). Note that this dataset may not be reliable as this project was developed for educational purposes in the field of machine learning only and not for professional use.
+![Breast Cancer Predictor Demo](demo.png)
+
+## 📌 Overview
+The **Breast Cancer Predictor Dashboard** is a machine learning-powered web application designed to assist medical professionals and cytology labs in diagnosing breast cancer. By inputting cellular measurements obtained from fine needle aspirate (FNA) digitized images, the model predicts whether a breast mass is **Benign** or **Malignant** with high accuracy.
+
+## 🚀 Live Application
+Try out the application here: **[Breast Cancer Predictor Streamlit App](https://ai-breast-cancer-predictor.streamlit.app/)**
+
+---
+
+## ✨ Key Features
+* **Interactive UI:** A clean, collapsible sidebar to input 30 different cellular measurements without overwhelming the user.
+* **Real-time Predictions:** Instantly calculates the probability of a tumor being benign or malignant.
+* **Visual Diagnostics:** Features a dynamic **Plotly Radar Chart** that visually maps the cellular profile (Mean, Standard Error, and Worst values) for quick visual assessment.
+* **Modern Styling:** Custom CSS for color-coded status badges and a professional dashboard layout.
+
+---
+
+## 🛠️ Technology Stack
+* **Frontend:** [Streamlit](https://streamlit.io/)
+* **Machine Learning:** [Scikit-Learn](https://scikit-learn.org/) (Logistic Regression)
+* **Data Manipulation:** Pandas, NumPy
+* **Data Visualization:** Plotly
+
+---
+
+## 💻 Run Locally
+
+To run this project on your local machine, follow these steps:
+
+**1. Clone the repository**
+```bash
+git clone [https://github.com/babaralimahar/Breast-Cancer-Predictor.git](https://github.com/babaralimahar/Breast-Cancer-Predictor.git)
+cd Breast-Cancer-Predictor
